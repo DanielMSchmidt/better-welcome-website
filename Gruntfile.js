@@ -436,6 +436,10 @@ module.exports = function (grunt) {
     'htmlmin'
   ]);
 
+  grunt.registerTask('deploy', function() {
+    grunt.log.warn('Todo');
+  });
+
   grunt.registerTask('default', [
     'newer:jshint',
     'test',
